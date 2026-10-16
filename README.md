@@ -1,6 +1,6 @@
 # CODINGـSystems — static HTML website
 
-Plain HTML + CSS + JavaScript. No server, no database, no build step, no Node needed.
+Plain HTML + CSS + JavaScript. Black & gold theme. No server, no database, no build step, no Node needed.
 
 ## Open / host it
 - **Locally:** double-click `index.html` (or run `python3 -m http.server` in this folder).
@@ -23,3 +23,6 @@ EN / AR switch (RTL), remembered in the browser (`localStorage`, language only).
 
 ## Before launch
 Upload the logo, set the email, review `privacy.html` and `terms.html` with a lawyer, replace the 3 **Concept** projects with real ones, and set `SITE_URL` in `_tools/build.py` then rebuild if you want a `sitemap.xml`.
+
+## Important: extract the ZIP first
+Unzip the whole folder before opening any page (do not open files from inside the ZIP viewer). The pages need the `assets/` folder next to them for scripts, fonts and images. Basic styling is embedded in every page, but the forms, language switch and menu need `assets/`.
